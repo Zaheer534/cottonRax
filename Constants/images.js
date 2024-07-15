@@ -65,7 +65,7 @@ export const AppImages = {
   },
   bonusImg: {
     background: require('../Assets/bonusback.png'),
-    back: require('../Assets/backicon.png'),
+    back: require('../Assets/back.png'),
   },
 };
 const styles = StyleSheet.create({});
