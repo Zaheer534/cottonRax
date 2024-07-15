@@ -7,13 +7,18 @@ const OnboardingIndex = ({navigation}) => {
       <TouchableOpacity
         onPress={() => navigation.navigate('OnboardingScreen')}
         style={{marginTop: 10, borderRadius: 8, backgroundColor: 'orange'}}>
-        <Text style={{padding: 10}}>OnboardingIndex</Text>
+        <Text style={{padding: 3}}>OnboardingIndex</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         onPress={() => navigation.navigate('My Orders')}
         style={{marginTop: 10, borderRadius: 8, backgroundColor: 'orange'}}>
-        <Text style={{padding: 10}}>My Orders</Text>
+        <Text style={{padding: 3}}>My Orders</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate('Borrow local')}
+        style={{marginTop: 10, borderRadius: 8, backgroundColor: 'orange'}}>
+        <Text style={{padding: 3}}>Borrow_local_pickup</Text>
       </TouchableOpacity>
     </View>
   );

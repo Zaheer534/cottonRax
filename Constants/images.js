@@ -59,5 +59,13 @@ export const AppImages = {
     ellipse: require('../Assets/Ellipsee.png'),
     right: require('../Assets/arrowwRight.png'),
   },
+
+  productImg: {
+    dress: require('../Assets/dress.png'),
+  },
+  bonusImg: {
+    background: require('../Assets/bonusback.png'),
+    back: require('../Assets/backicon.png'),
+  },
 };
 const styles = StyleSheet.create({});

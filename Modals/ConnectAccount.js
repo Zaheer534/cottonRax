@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     // margin: 20,
     position: 'absolute',
     bottom: 0,
-    // backgroundColor: 'green',
+    backgroundColor: 'white',
     justifyContent: 'center',
     // alignItems: 'center',
     alignSelf: 'center',

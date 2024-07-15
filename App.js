@@ -16,7 +16,7 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <>
-      <NavigationContainer>
+      {/* <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
             headerShown: false,
@@ -25,19 +25,22 @@ const App = () => {
           <Stack.Screen name="OnboardingScreen" component={OnboardingScreen} />
           <Stack.Screen name="My Orders" component={Orders} />
           <Stack.Screen name="navigate order" component={OrderNavigate} />
+          <Stack.Screen name="Borrow local" component={Borrow_local_pickup} />
         </Stack.Navigator>
-      </NavigationContainer>
+      </NavigationContainer> */}
+
+      {/* <ModalIndex /> */}
+
+      <GestureHandlerRootView style={{flex: 1}}>
+        <View style={{flex: 1}}>
+          {/* <SheetIndex /> */}
+          {/* <IndexChart /> */}
+          <ModalIndex />
+        </View>
+
+        {/* <ListingForm /> */}
+      </GestureHandlerRootView>
     </>
-
-    // <GestureHandlerRootView style={{flex: 1}}>
-    //   <View style={{flex: 1}}>
-    //     {/* <SheetIndex /> */}
-    //     {/* <IndexChart /> */}
-    //     <ModalIndex />
-    //   </View>
-
-    //   {/* <ListingForm /> */}
-    // </GestureHandlerRootView>
   );
 };
 
